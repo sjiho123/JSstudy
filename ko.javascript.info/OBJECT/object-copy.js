@@ -89,7 +89,7 @@ alert(user.name); //기존 객체에는 여전히 Johndl 있습니다.
 // Object.assign를 사용하는 방법도 있습니다
 // 문법과 동작 방식은 다음과 같습니다.
 
-Object.assign(dest, [src1,src2,src3...])
+Object.assign(dest, [src1,src2,src3/*...*/])
 // 첫번째 인수dest는 목표로 하는 객체 입니다.
 // 이어지는 인수 src1,...a,srcN는 복사하고자 하는 객체입니다. ...은 필요에 따라 얼마든지 많은 객체를 인수로 사용할 수 있다는 것을 나타냅니다.
 // 객체 src1, ..., srcN의 프로퍼티를 dest에 복사합니다. dest를 제외한 인수(객체)의 프로퍼티 전부가 첫번째 인수(객체)로 복사됩니다.
