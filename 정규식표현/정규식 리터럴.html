@@ -1,0 +1,36 @@
+<!--
+    const regex = /abc/;
+    정규식 리터럴 방식은 문자열 양쪽을 슬래시(/)로 감싸는 방법입니다. 스크립트가 로드될때 컴파일되므로, 
+    정규식 문자여이 변하지않는다면 리터럴 방식으로 선언하는것이 성능상 조금 더 이점이 있습니다.
+
+    
+    const regex = new RegExp("abc");
+    RegExp 생성자에 매개변수로 패턴을 선언하는 방식입니다. 
+    정규식이 실행 시점에 컴파일 되므로 정규식을 동적으로 변화시켜야할때 유용합니다.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="asd">  </p>
+
+    <script>    
+        //   JavaScript에서는 정규식을 리터럴로 선언하는 방법과 정규식 생성자 RegExp를 이용해 생성하는 두 가지 방법을 제공하고 있습니다.
+
+const regex = /abc/;
+        // 정규식 리터럴 방식은 문자열 양쪽을 슬래시(/)로 감싸는 방식입니다.
+        // 스크립트가 로드될 때 컴파일되므로, 정규식 문자열이 변하지 않는다면 리터럴 방식으로 선언하는 것이 성능 상 조금 더 이점이 있습니다.
+
+const regex = new RegExp("abc");
+    </script>
+    
+</body>
+</html>

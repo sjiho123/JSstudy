@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "init": "^0.1.2"
+  },
+  "style": {
+    
+  }
+}

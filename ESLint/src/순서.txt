@@ -1,0 +1,8 @@
+eslint 설치
+.eslintrc.js 파일 생성후 명령어 설정
+
+prettier 설치
+
+eslint && prettier 통합
+
+eslint && prettier && github 통합
