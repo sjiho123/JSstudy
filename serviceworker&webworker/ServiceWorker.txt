@@ -139,3 +139,16 @@ export function register(config?: config) {
     }
 }
 
+
+서비스 워커 생애주기 (Lifecycle)
+
+서비스 워커 등록 (index.html)
+
+install ( 서비스워커 처음 설치)
+
+activate(서비스 동작 , 변경)
+
+Fetch(데이터 요청) < - > Idle(이벤트 기다림)
+
+
+
