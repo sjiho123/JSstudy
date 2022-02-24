@@ -47,7 +47,21 @@
 
 
 7 심볼형
+1. 심볼형은 유일성이라는 특징하에 사용된다
+2. 심볼끼리는 true가 되지않는다
+3. 심볼을 출력하려면 tostring()메소드를 호출해야한다
+4. 심볼값을 객체리터럴에 추가하려면 []값을 넣어야한다 그렇지않으면 그냥 문자열 id가 들어간다
+5. 심볼값은 for in 문에서 베제된다
+6. 심볼값은 object.assign 에서는 베제되지않는다 의도자체가 심볼값까지 복사하게끔 만들어둠
+7. 전역심볼이란게 있는데 그런게있다
 
+8 객체를 원시형으로 변환하기
+1. 객체 연산은 지알아서 찾는데 가끔 default값이 나온다
+2. hint가 string 인 경우 보통 tostring -> value 순이다 tostring이 있다면 tostring을 호출 tostring이 없다면 valueof를 호출
+3. 그 외엔 valueof -> string이다
+4. tostring은 문자열 object Object를 반환한다 valueof는 객체 자신을 반환한다
+5. +기호 앞에 string값이 있다면 문자열취급될 가능성이 높다
+6. obj.toString()이면 앵간하면 해결가능
 
 
 
